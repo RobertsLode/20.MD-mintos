@@ -1,0 +1,138 @@
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 10px 10px 10px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.map--wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+
+.map--wrapper-x {
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+    max-width: 300px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 15px;
+}
+
+.mapped--buttons {
+    min-width: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px 4px;
+    gap: 3px;
+
+    &:hover {
+        background-color: rgb(226, 223, 223);
+        cursor: pointer;
+    }
+}
+.mapped--buttons-active {
+    min-width: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px 4px;
+    gap: 3px;
+}
+
+.butt--text {
+    color: rgb(87, 88, 165);
+    font-weight: 500;
+}
+
+.mapped--box {
+    min-width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 226, 226);
+    min-height: 30px;
+}
+
+.check--box {
+    width: 14px;
+    height: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: 700;
+}
+
+.mapped--button {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -37px;
+    top: -8px;
+    padding: 0;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    outline: 2px solid white;
+
+    &:hover {
+        background-color: white;
+        cursor: pointer;
+        outline: 2px solid black;
+    }
+}
+
+.button--dad {
+    position: relative;
+}
+
+.span--x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    top: -7px;
+    position: absolute;
+    z-index: 50;
+    &:hover {
+        color: black;
+    }
+}
+.selected {
+    background-color: transparent;
+    &:hover {
+        background-color: transparent;
+    }
+}
